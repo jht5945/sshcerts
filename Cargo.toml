@@ -1,5 +1,5 @@
 [package]
-name = "sshcerts"
+name = "sshcerts-hatter-fork"
 version = "0.14.0"
 authors = ["Mitchell Grenier <mitchell@confurious.io>"]
 edition = "2021"
