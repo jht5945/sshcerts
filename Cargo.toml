@@ -1,6 +1,6 @@
 [package]
 name = "sshcerts-hatter-fork"
-version = "0.14.0"
+version = "0.14.0-r2"
 authors = ["Mitchell Grenier <mitchell@confurious.io>"]
 edition = "2021"
 license-file = "LICENSE"
@@ -66,7 +66,7 @@ lexical-core = { version = ">0.7.4", optional = true }
 rcgen = { version = "0.11", optional = true }
 x509 = { version = "0.2", optional = true }
 x509-parser = { version = "0.15", features = ["verify"], optional = true }
-der-parser = { version = "5", optional = true }
+der-parser = { version = "6", optional = true }
 
 # Dependencies for encrypted-keys
 aes = { version = "0.7", features = ["ctr"], optional = true }
